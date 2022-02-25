@@ -52,7 +52,7 @@ const ToDoList = () => {
     return (
         <div className="ToDo">
             <img className="Logo" src={Logo} alt="React logo" />
-            <h1 className="ToDo-Header">React To Do</h1>
+            <h1 className="ToDo-Header">React Demonstration</h1>
             <div className="ToDo-Container">
                 <div className="ToDo-Content">
                     {list.map((item) => {
